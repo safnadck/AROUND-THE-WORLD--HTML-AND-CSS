@@ -1,0 +1,424 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-image {
+    width: 100%;
+    height: 600px;
+    background-image: url('banner.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-list {
+    display: flex;
+    padding: 10px;
+    margin-top: -3%;
+    margin-left: 50%;
+    gap: 50px;
+}
+
+.main-list a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+.main-list .btn {
+    margin-top: -8%;
+   background: none;
+   border: none;
+   font-weight: 500;
+
+}
+
+.logo {
+    margin-left: 10%;
+    margin-top: 2%;
+    width: 140px;
+}
+
+.main-image h1 {
+    text-align: center;
+    color:  #009dff;
+    margin-top: 10%;
+    font-size: 55px;
+}
+
+.main-image h1 span {
+    color: rgb(255, 255, 255);
+}
+
+
+.dropdown-menu li {
+    background-color: rgb(10, 72, 231);
+    color: rgb(210, 167, 167);
+}
+
+.choose-us {
+    margin-top: 15%;
+    background-color: #ffffff;
+    
+}
+
+.choose-us h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.choose-us .us {
+    text-align: center;
+    display: flex;
+    gap: 150px;
+    margin-top: 5%;
+    padding-left: 500px;
+    font-size: 20px;
+}
+
+.choose-us .us span {
+    font-weight: bold;
+}
+
+.lore {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+   
+    
+}
+
+#a {
+   position: absolute;
+    width: 550px;
+    height: auto;
+    top: 1180px;
+    left: 20px;
+}
+#b {
+    position: absolute;
+    width: 550px;
+    height: auto;
+    top: 1180px;
+    left: 120px;
+}
+
+#c {
+    position: absolute;
+    width: 550px;
+    height: auto;
+    top: 1120px;
+    left: 80px;
+}
+
+.lor {
+    text-align: left;
+    margin-top: 25%;
+}
+
+.lor h5 {
+    margin-top: 6%;
+    font-size: 25px;
+}
+
+.company {
+    background-color: azure;
+    margin-top: 10%;
+    display: flex;
+    gap: 100px;
+    padding-left: 150px;
+    height: 530px;
+
+    
+    
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+.with , .car {
+    margin-top: 100px;
+    text-align: left;
+    border: none;
+    background: none;
+
+}
+
+.with span {
+    color: #009dff;
+}
+
+.car-body .btn {
+    border-radius: 50%;
+    font-size: 15px;
+    color: #fff;
+    background-color: #009dff;
+}
+
+button {
+ border: none;
+ background: none;
+}
+.car-img-top {
+    border-radius: 10px;
+}
+
+.car-title {
+    margin-top: 5%;
+}
+
+.company h3 , h5 {
+    font-weight: bold;
+}
+
+.with p {
+    margin-top: 10%;
+}
+.with button {
+    margin-top: 5%;
+}
+
+.what {
+    background-color: rgb(54, 13, 121);
+    color: #fff;
+    display: grid;
+    height: 600px;
+    
+}
+
+.industry {
+    border: 3px solid rgb(255, 255, 255);
+    width: 20%;
+    padding: 10px;
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(1,5fr);
+}
+
+.tick {
+   
+    background-color: rgb(54, 13, 121);
+    border-radius: 20%;
+    width: 40px;
+}
+
+#n {
+    position: absolute;
+    top: 310%;
+    left: 70%;
+}
+
+#w {
+    position: absolute;
+    top: -17%;
+    left: 5%;
+}
+
+#m {
+    position: absolute;
+    top: 310%;
+    left: 44%;
+}
+
+#q {
+    position: absolute;
+    top: -17%;
+    left: 5%;
+}
+
+#v {
+    position: absolute;
+    top: 340%;
+    left: 44%;
+}
+
+#x {
+    position: absolute;
+    top: 340%;
+    left: 70%;
+}
+
+#z {
+    position: absolute;
+    top: 340%;
+    left: 18%;
+}
+
+#e , #r ,#t {
+    position: absolute;
+    top: -17%;
+    left: 5%;
+}
+
+.is {
+    margin-top: 8%;
+    margin-left: 18%;
+
+}
+
+.is h2 {
+    font-size: 35px;
+}
+
+.is h5 {
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+
+.footer-servic a , .footer-product a {
+    text-decoration: none;
+    color: black;
+}
+
+.footh {
+    background-color: azure;
+}
+
+.foter-data {
+    padding: 20px;
+    display: flex;
+    gap: 80px;
+    padding-left: 18%;
+    padding-top: 6%;
+}
+
+.foter-data h5 {
+    position: absolute;
+    font-weight: bold;
+    top: 380%;
+}
+
+.follow h5 {
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+
+.follow i {
+    background-color: gray;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 20px;
+    width: 20px;
+    padding: 10px;
+}
+
+
+#lk {
+    background-color: #009dff;
+}
+
+.follow {
+    position: absolute;
+    margin-left: 65%;
+    margin-top: -17%;
+}
+
+.follow p {
+    position: absolute;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    top: 130%;
+    font-weight: bold;
+}
+
+.last-text {
+    background-color: rgb(60, 59, 59);
+    color: #fff;
+    display: flex;
+    gap: 200px;
+    
+}
+
+.last-text p {
+    margin-left: 20%;
+    margin-top: 1%;
+}
+
+.photos {
+    position: absolute;
+    display:flex;
+    top: 80%;
+    left: 25%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
+    
+
+}
+
+.key, .lock , .shield ,.browse , .pa {
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.key {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.pa {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.browse {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+
+#km {
+    display: none;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #fff;
+    background-color: #075d93;
+    
+}
+
+.browse:hover {
+    transform: scale(1.2); 
+    background-color: #044ba8; 
+    border-radius: 10px;
+     
+
+}
+
+.browse:hover #km {
+    display: inline-block;
+}
+
+.ewq {
+    position: absolute;
+
+    top: 137%;
+    left: 34%;
+}
+
+
+.mnb {
+    position: absolute;
+    left: 18%;
+    top: 23%;
+}
+
+.mnbvc {
+    position: absolute;
+    left: 38%;
+    top: 23%; 
+}
+
