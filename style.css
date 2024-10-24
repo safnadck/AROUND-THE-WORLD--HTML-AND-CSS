@@ -213,6 +213,7 @@ button {
 }
 
 #n {
+    
     position: absolute;
     top: 310%;
     left: 70%;
@@ -421,4 +422,6 @@ button {
     left: 38%;
     top: 23%; 
 }
+
+
 
